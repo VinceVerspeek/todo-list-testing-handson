@@ -1,0 +1,6 @@
+{
+  "todos": [
+    { "id": 1, "title": "mock todo 1" },
+    { "id": 2, "title": "mock todo 2" }
+  ]
+}
