@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 // Use the environment variable or fallback to the real API
-const todoUrl =
-  process.env.REACT_APP_TODO_URL ||
-  "https://jsonplaceholder.typicode.com/todos";
+const todoUrl = "https://jsonplaceholder.typicode.com/todos";
 
 const TodosList = () => {
   const [todos, setTodos] = useState([]);
